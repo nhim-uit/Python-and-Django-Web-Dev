@@ -9,20 +9,73 @@
 <body>
     <div class="container">
         <form>
-            <div class="mb-3">
+            <div class="mb-4">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-            <div class="mb-3">
+
+            <div class="mb-4">
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-                <div class="mb-3 form-check">
+
+            <div class="mb-4">
+                <div class="form-group">
+                    <label for="exampleSelect1">Example select</label>
+                    <select class="form-control" id="exampleSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <div class="form-group">
+                    <label for="exampleSelect1">Example select</label>
+                    <select multiple class="form-control" id="exampleSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-4 form-group">
+                    <legend>Radio buttons</legend>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadio1" value="option1">
+                            Option one is this and that - be sure to include why it's great
+                        </label>
+                    </div>
+                    
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadio2" value="option2">
+                            Option two can be something else and selecting it will deselect option one
+                        </label>
+                    </div>
+        
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadio3" value="option3" disabled>
+                            Option three is disabled
+                        </label>
+                    </div>
+            </div>
+
+            <div class="mb-4 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <div class="mb-3">
+
+            <div class="mb-4">
                 <label for="exampleInputFile">File input</label>
                 <input type="file" class="form-control-file" id="exampleInputFile">
             </div>
@@ -31,28 +84,6 @@
     </div>
 
     <br>
-    <div class="container">
-        <div class="form-group">
-            <legend>Radio buttons</legend>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadio1" value="option1">
-                    Option one is this and that - be sure to include why it's great
-                </label>
-            </div>
-            <div class="form-check"></div>
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadio2" value="option2">
-                    Option two can be something else and selecting it will deselect option one
-                </label>
-            </div>
-            <div class="form-check"></div>
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadio3" value="option3" disabled>
-                    Option three is disabled
-                </label>
-            </div>
-        </fieldset>
-    </div>
+    
 </body>
 </html>
